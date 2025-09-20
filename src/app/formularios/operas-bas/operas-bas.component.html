@@ -1,0 +1,23 @@
+<form>
+  <div>
+    <label for="n1">Numero</label><br>
+    <input type="number" id="n1" [(ngModel)]="num1" name="n1" placeholder="uno">
+  </div>
+  <div>
+    <label for="n2">Numero</label><br>
+    <input type="number" id="n2" [(ngModel)]="num2" name="n2" placeholder="dos">
+  </div>  
+  <div>
+     <label>
+      <input type="radio" name="op" value="sumar" [(ngModel)]="operacion" checked> Suma   </label>
+      <label>
+      <input type="radio" name="op" value="resta" [(ngModel)]="operacion"> Resta   </label>
+       <label>
+      <input type="radio" name="op" value="multi" [(ngModel)]="operacion"> Multiplicacion  </label>
+      <label>
+      <input type="radio" name="op" value="div" [(ngModel)]="operacion"> Division   </label>
+  </div>  
+  <hr>  
+  <button type="button" (click)="calcular()">Calcular</button>
+    <h3>Resultado: {{resultado}}</h3>
+</form>
