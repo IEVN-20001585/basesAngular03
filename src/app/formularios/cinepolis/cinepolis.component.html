@@ -1,0 +1,37 @@
+<h2>Cinepolis</h2>
+
+<form>
+  <table style="width:100%">
+    <tr>
+      <td style="vertical-align:top; width:50%; padding-right: 20px;">
+        <h3>Entradas</h3>
+        <label>Nombre:</label><br>
+        <input [(ngModel)]="nombre" name="nombre" style="width: 90%;"><br><br>
+
+        <label>Cantidad Compradores:</label><br>
+        <input type="number" [(ngModel)]="compradores" name="compradores" style="width: 90%;"><br><br>
+
+        <label>Tarjeta Cineco:</label><br>
+        <input type="radio" [(ngModel)]="tarjeta" name="tarjeta" value="si"> Sí
+        <input type="radio" [(ngModel)]="tarjeta" name="tarjeta" value="no" checked> No
+        <br><br>
+
+        <label>Cantidad de Boletos:</label><br>
+        <input type="number" [(ngModel)]="boletos" name="boletos" style="width: 90%;"><br><br>
+      </td>
+
+      <td style="vertical-align:top; width:50%;">
+        <h3>Salidas</h3>
+        <label>Valor a Pagar:</label><br>
+        <input [(ngModel)]="total" name="total" readonly style="width: 90%;"><br><br>
+        <p>{{mensaje}}</p>
+
+        <br>
+
+        <h3>Acciones</h3>
+        <button type="button" class="btn btn-danger" (click)="calcular()">Procesar</button>
+        <button type="button" class="btn btn-warning" (click)="salir()">Salir</button>
+      </td>
+    </tr>
+  </table>
+</form>
