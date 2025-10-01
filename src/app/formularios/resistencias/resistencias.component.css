@@ -1,0 +1,44 @@
+.fondocolor-negro   { background-color: #000000; }
+.fondocolor-marron  { background-color: #A0522D; }
+.fondocolor-rojo    { background-color: #FF0000; }
+.fondocolor-naranja { background-color: #FFA500; }
+.fondocolor-amarillo{ background-color: #FFFF00; color: #333 !important; }
+.fondocolor-verde   { background-color: #008000; }
+.fondocolor-azul    { background-color: #0000FF; }
+.fondocolor-morado  { background-color: #960196; }
+.fondocolor-gris    { background-color: #808080; }
+.fondocolor-blanco  { background-color: #FFFFFF; color: #333 !important; }
+.fondocolor-oro     { background-color: #FFD700; color: #333 !important; }
+.fondocolor-plata   { background-color: #C0C0C0; color: #333 !important; }
+
+.blancoTe {
+  color: white !important;
+}
+
+
+
+.negroTe {
+  color: white !important;
+}
+
+.bandaCol {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0.5rem;
+}
+
+.botonColor {
+  margin-left: 1.25rem;
+}

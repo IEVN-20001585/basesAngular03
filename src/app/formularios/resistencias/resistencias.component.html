@@ -1,173 +1,164 @@
-    <div class="container mt-4">
+<div class="container mt-4">
   <h2 class="text-center mb-4">Calculadora de Resistencias</h2>
 
-       <div class="row">
-
-            <div class="col-md-3">
-         <h3>1ra Banda</h3>
-           <div class="form-check">
-        <input class="form-check-input" type="radio" name="b1" value="negro" [(ngModel)]="color1">
-        <label class="form-check-label">Negro</label>
-                       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b1" value="marron" [(ngModel)]="color1">
-                    <label class="form-check-label">Marrón</label>
-                      </div>
-                     <div class="form-check">
-        <input class="form-check-input" type="radio" name="b1" value="rojo" [(ngModel)]="color1">
-                      <label class="form-check-label">Rojo</label>
-      </div>
-                   <div class="form-check">
-                <input class="form-check-input" type="radio" name="b1" value="naranja" [(ngModel)]="color1">
-              <label class="form-check-label">Naranja</label>
-                   </div>
-                         <div class="form-check">
-                  <input class="form-check-input" type="radio" name="b1" value="amarillo" [(ngModel)]="color1">
-                         <label class="form-check-label">Amarillo</label>
-                </div>
-                <div class="form-check">
-        <input class="form-check-input" type="radio" name="b1" value="verde" [(ngModel)]="color1">
-                    <label class="form-check-label">Verde</label>
-                 </div>
-                 <div class="form-check">
-                <input class="form-check-input" type="radio" name="b1" value="azul" [(ngModel)]="color1">
-                 <label class="form-check-label">Azul</label>
-                  </div>
-                     <div class="form-check">
-                    <input class="form-check-input" type="radio" name="b1" value="violeta" [(ngModel)]="color1">
-                 <label class="form-check-label">Violeta</label>
-                   </div>
-                <div class="form-check">
-                        <input class="form-check-input" type="radio" name="b1" value="gris" [(ngModel)]="color1">
-                 <label class="form-check-label">Gris</label>
-            </div>
-               <div class="form-check">
-                 <input class="form-check-input" type="radio" name="b1" value="blanco" [(ngModel)]="color1">
-                  <label class="form-check-label">Blanco</label>
-      </div>
-    </div>
-
-    <div class="col-md-3">
-                  <h3>2da Banda</h3>
-                    <div class="form-check">
-                   <input class="form-check-input" type="radio" name="b2" value="negro" [(ngModel)]="color2">
-                   <label class="form-check-label">Negro</label>
-                </div>
-                 <div class="form-check">
-                        <input class="form-check-input" type="radio" name="b2" value="marron" [(ngModel)]="color2">
-                <label class="form-check-label">Marrón</label>
-      </div>
-      <div class="form-check">
-                   <input class="form-check-input" type="radio" name="b2" value="rojo" [(ngModel)]="color2">
-        <label class="form-check-label">Rojo</label>
-      </div>
-             <div class="form-check">
-        <input class="form-check-input" type="radio" name="b2" value="naranja" [(ngModel)]="color2">
-               <label class="form-check-label">Naranja</label>
-      </div>
-                 <div class="form-check">
-                  <input class="form-check-input" type="radio" name="b2" value="amarillo" [(ngModel)]="color2">
-        <label class="form-check-label">Amarillo</label>
-              </div>
-           <div class="form-check">
-        <input class="form-check-input" type="radio" name="b2" value="verde" [(ngModel)]="color2">
-        <label class="form-check-label">Verde</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b2" value="azul" [(ngModel)]="color2">
-          <label class="form-check-label">Azul</label>
-      </div>
-             <div class="form-check">
-               <input class="form-check-input" type="radio" name="b2" value="violeta" [(ngModel)]="color2">
-        <label class="form-check-label">Violeta</label>
-              </div>
-            <div class="form-check">
-        <input class="form-check-input" type="radio" name="b2" value="gris" [(ngModel)]="color2">
-        <label class="form-check-label">Gris</label>
-         </div>
-             <div class="form-check">
-            <input class="form-check-input" type="radio" name="b2" value="blanco" [(ngModel)]="color2">
-        <label class="form-check-label">Blanco</label>
+  <div class="row">
+    <div class="col-md-4">
+      <h5>1ra. Banda</h5>
+      <div class="contenedor">
+        <input class="botonColor" type="radio" name="b1" value="negro" [(ngModel)]="color1">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-negro blancoTe">0</div>
+                  </label></div>
+      <div class="contenedor">
+        <input class="botonColor" type="radio" name="b1" value="marron" [(ngModel)]="color1">
+                <label class="form-check-label w-100"><div class="bandaCol fondocolor-marron blancoTe">1</div>
+        </label></div>
+              <div class="contenedor">
+        <input class="botonColor" type="radio" name="b1" value="rojo" [(ngModel)]="color1">
+                <label class="form-check-label w-100"><div class="bandaCol fondocolor-rojo blancoTe">2</div>
+        </label></div>
+              <div class="contenedor">
+        <input class="botonColor" type="radio" name="b1" value="naranja" [(ngModel)]="color1">
+                <label class="form-check-label w-100"><div class="bandaCol fondocolor-naranja">3</div>
+        </label></div>
+              <div class="contenedor">
+        <input class="botonColor" type="radio" name="b1" value="amarillo" [(ngModel)]="color1">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-amarillo">4</div>
+                  </label></div>
+      <div class="contenedor">
+                <input class="botonColor" type="radio" name="b1" value="verde" [(ngModel)]="color1">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-verde blancoTe">5</div>
+                  </label></div>
+      <div class="contenedor">
+                <input class="botonColor" type="radio" name="b1" value="azul" [(ngModel)]="color1">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-azul blancoTe">6</div>
+                  </label></div>
+      <div class="contenedor">
+                <input class="botonColor" type="radio" name="b1" value="morado" [(ngModel)]="color1">
+                        <label class="form-check-label w-100"><div class="bandaCol fondocolor-morado blancoTe">7</div>
+        </label></div>
+              <div class="contenedor">
+                        <input class="botonColor" type="radio" name="b1" value="gris" [(ngModel)]="color1">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-gris blancoTe">8</div>
+                  </label></div>
+      <div class="contenedor">
+                <input class="botonColor" type="radio" name="b1" value="blanco" [(ngModel)]="color1">
+                        <label class="form-check-label w-100"><div class="bandaCol fondocolor-blanco">9</div></label>
       </div>
     </div>
 
-                  <div class="col-md-3">
-      <h3>Multiplicador</h3>
-                  <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="negro" [(ngModel)]="color3">
-        <label class="form-check-label">Negro</label>
-      </div>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="b3" value="marron" [(ngModel)]="color3">
-        <label class="form-check-label">Marrón</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="rojo" [(ngModel)]="color3">
-                <label class="form-check-label">Rojo</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="naranja" [(ngModel)]="color3">
-        <label class="form-check-label">Naranja</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="amarillo" [(ngModel)]="color3">
-              <label class="form-check-label">Amarillo</label>
-             </div>
-              <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="verde" [(ngModel)]="color3">
- <label class="form-check-label">Verde</label>
-       </div>
-       <div class="form-check">
-              <input class="form-check-input" type="radio" name="b3" value="azul" [(ngModel)]="color3">
-        <label class="form-check-label">Azul</label>
-           </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="violeta" [(ngModel)]="color3">
-        <label class="form-check-label">Violeta</label>
-      </div>
-       <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="gris" [(ngModel)]="color3">         <label class="form-check-label">Gris</label>
-      </div>       <div class="form-check">
-        <input class="form-check-input" type="radio" name="b3" value="blanco" [(ngModel)]="color3">
-        <label class="form-check-label">Blanco</label>
-      </div>
-    </div> 
-    <div class="col-md-3">
-      <h3>Tolerancia</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="tol" value="oro" [(ngModel)]="tolerancia">         <label class="form-check-label">Oro 5%</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="tol" value="plata" [(ngModel)]="tolerancia">         <label class="form-check-label">Plata 10%</label>
-      </div>
+    <div class="col-md-4">
+      <h5>2da. Banda</h5>
+            <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="negro" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-negro blancoTe">0</div>
+                  </label></div>
+                        <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="marron" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-marron blancoTe">1</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="rojo" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-rojo blancoTe">2</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="naranja" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-naranja">3</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="amarillo" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-amarillo">4</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="verde" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-verde blancoTe">5</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="azul" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-azul blancoTe">6</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="morado" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-morado blancoTe">7</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="gris" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-gris blancoTe">8</div>
+                  </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b2" value="blanco" [(ngModel)]="color2">
+        <label class="form-check-label w-100"><div class="bandaCol fondocolor-blanco">9</div>
+                  </label></div>
+    </div>
+
+    <div class="col-md-4">
+      <h5>3ra. Banda Multiplicador</h5>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="negro" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-negro blancoTe">x1</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="marron" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-marron blancoTe">x10</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="rojo" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-rojo blancoTe">x100</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="naranja" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-naranja">x1000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="amarillo" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-amarillo">x10000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="verde" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-verde blancoTe">x100000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="azul" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-azul blancoTe">x1000000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="morado" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-morado blancoTe">x10000000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="gris" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-gris blancoTe">x100000000</div>
+                            </label></div>
+      <div class="contenedor"><input class="botonColor" type="radio" name="b3" value="blanco" [(ngModel)]="color3">
+        <label class="form-check-label w-150"><div class="bandaCol fondocolor-blanco">x1000000000</div>
+                            </label></div>
     </div>
   </div>
 
-  <div class="text-center mt-4">
-    <button class="btn btn-primary btn-lg" (click)="calcular()">Calcular</button>   </div>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <h5>Tolerancia</h5>
+            <div class="contenedor">
+        <input class="botonColor" type="radio" name="tol" value="oro" [(ngModel)]="tolerancia">
+                <label class="form-check-label w-100">
+          <div class="bandaCol fondocolor-oro">Dorado</div>
+                  </label>
+      </div>
+      <div class="contenedor">
+        <input class="botonColor" type="radio" name="tol" value="plata" [(ngModel)]="tolerancia">
+        <label class="form-check-label w-100">
+          <div class="bandaCol fondocolor-plata">Plata</div>
+                  </label>
+      </div>
+          </div>
 
-  <hr class="my-4">  
-  <h2 class="text-center">Resultados</h2>   <table class="table table-bordered table-striped text-center">
-    <thead class="table-dark">       <tr>         <th>Color 1</th>
-                 <th>Color 2</th>
-                <th>Color 3</th>
-                <th>Tolerancia</th>
-              <th>Valor</th>
-                <th>Valor máximo</th>
-           <th>Valor mínimo</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{ color1 }}</td>
-        <td>{{ color2 }}</td>
-        <td>{{ color3 }}</td>
-        <td>{{ tolerancia }}</td>
-        <td>{{ resultado }}</td>
-        <td>{{ maximo }}</td>
-        <td>{{ minimo }}</td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="col-md-8 d-flex align-items-center justify-content-center">
+            <button class="btn btn-primary btn-lg" (click)="calcular()">Calcular</button>
+    </div>
+  </div>
 
+  <hr class="my-4">
+
+    <div *ngIf="haCalculado">
+    <h2 class="text-center">Resultados</h2>
+    <table class="table table-bordered text-center">
+      <thead class="table-dark">
+        <tr>
+          <th>Color 1</th><th>Color 2</th><th>Color 3</th><th>Tolerancia</th>
+          <th>Valor</th><th>Valor Máximo</th><th>Valor Mínimo</th>
+                  </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td [ngClass]="'fondocolor-' + color1Calculado">{{ color1Calculado }}</td>
+                    <td [ngClass]="'fondocolor-' + color2Calculado">{{ color2Calculado }}</td>
+          <td [ngClass]="'fondocolor-' + color3Calculado">{{ color3Calculado }}</td>
+                    <td [ngClass]="'fondocolor-' + toleranciaCalculada">{{ toleranciaCalculada }}</td>
+                              <td><strong>{{ resultadoMostrado }}</strong></td>
+          <td>{{ maximoMostrado }}</td>
+                    <td>{{ minimoMostrado }}</td>
+                            </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
